@@ -70,8 +70,7 @@ npm start
 
 - Node.js
 - Express.js
-- MongoDB (ou outro banco de dados de sua escolha)
-- Mongoose (para interagir com o MongoDB)
+- Mysql (ou outro banco de dados de sua escolha)
 
 ## Contribuição
 
