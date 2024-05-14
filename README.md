@@ -41,29 +41,28 @@ npm start
 
 - Adicionar um Novo Time:
   ```
-  POST http://localhost:3000/api/teams
+  POST http://localhost:3000/teams
   Content-Type: application/json
 
   {
     "name": "Los Angeles Lakers",
-    "city": "Los Angeles",
-    "abbreviation": "LAL"
+    "group": "A"
   }
   ```
 
 - Atualizar Informações de um Time Existente:
   ```
-  PUT http://localhost:3000/api/teams/1
+  PUT http://localhost:3000/teams/1
   Content-Type: application/json
 
   {
-    "city": "San Francisco"
+    "name": "San Francisco"
   }
   ```
 
 - Remover um Time Existente:
   ```
-  DELETE http://localhost:3000/api/teams/1
+  DELETE http://localhost:3000/teams/1
   ```
 
 ## Tecnologias Utilizadas
