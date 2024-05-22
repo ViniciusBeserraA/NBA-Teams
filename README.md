@@ -70,6 +70,7 @@ npm start
 - Node.js
 - Express.js
 - Mysql (ou outro banco de dados de sua escolha)
+- *Lembrando que ao baixar o repositorio, criar base e configurar com as credenciais da base, caso seja necessário.*
 
 ## Contribuição
 
